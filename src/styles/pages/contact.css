@@ -1,0 +1,21 @@
+/**
+ * Contact page specific styles
+ */
+
+/* Form styling enhancements */
+.contact-form input,
+.contact-form textarea {
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #4a90e2;
+}
+
+/* Custom success message styling */
+.contact-success {
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #e6f7e6;
+}

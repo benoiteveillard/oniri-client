@@ -1,0 +1,10 @@
+/**
+ * Blog post page specific styles
+ */
+
+/* Just a minimal example for the blog post page */
+.blog-post-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}

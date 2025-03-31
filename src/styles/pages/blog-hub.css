@@ -1,0 +1,10 @@
+/**
+ * Blog listing page specific styles
+ */
+
+/* Just a minimal example for the blog listing page */
+.blog-listing-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}

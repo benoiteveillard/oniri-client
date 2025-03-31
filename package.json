@@ -1,0 +1,22 @@
+{
+  "name": "webflow-js-template",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node ./bin/build.js && node ./bin/copy-page-css.js",
+    "build": "cross-env NODE_ENV=production node ./bin/build.js && node ./bin/copy-page-css.js",
+    "copy-css": "node ./bin/copy-page-css.js",
+    "lint": "eslint src --ext .js",
+    "format": "prettier --write \"src/**/*.{js,css}\"",
+    "format:check": "prettier --check \"src/**/*.{js,css}\""
+  },
+  "dependencies": {
+    "@justaa/scripts": "^1.2.21",
+    "cross-env": "^7.0.3",
+    "esbuild": "^0.19.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "prettier": "^3.5.3"
+  }
+}

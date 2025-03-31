@@ -1,0 +1,16 @@
+/**
+ * Home page specific styles
+ */
+
+/* Example styles for home page elements */
+.home-hero {
+  position: relative;
+}
+
+.home-feature {
+  transition: transform 0.3s ease;
+}
+
+.home-feature:hover {
+  transform: translateY(-5px);
+}
