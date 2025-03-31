@@ -42,12 +42,6 @@ async function loadPageSpecificCode() {
       initContactPage();
     });
 
-    // Contact page
-    onPage('roundtable-new-rotation', async () => {
-      const { initR } = await import('./scripts/pages/roundtable.js');
-      initR();
-    });
-
     // Dynamic pages - using onPattern
     // -------------------------------------------------------------------------
 
